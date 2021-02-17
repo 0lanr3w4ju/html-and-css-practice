@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body, html {
+    background-color: hsl(204, 43%, 93%);
+    height: 100%;
+    display: grid;
+    font-family: 'Karla', sans-serif;
+}
+
+span {
+    margin: auto;
+}
+
+.box {
+    margin: auto;
+    margin-top: 109px;
+    height: 600px;
+    width: 850px;
+    background-color: black;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: -18px 10px 76px hsl(218, 22%, 67%)
+}
+
+.innerUpBox {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: white;
+    top: 0px;
+    height: 300px;
+    width: inherit;
+    margin-top: -20px;
+}
+/* #c6dc60 <--- color*/ 
+.texts {
+    position: absolute;
+    margin: 39px 0px 0px 67px;
+    width: 716px;
+}
+
+.texts h2 {
+    color: #2bb3b1;
+    font-size: 31px;
+}
+
+.texts h3 {
+    color: #c6dc60;
+    font-size: 23px;
+    margin-bottom: -9px;
+}
+
+.texts p {
+    color: lightslategray;
+    font-size: 21px;
+    margin-bottom: -13px;
+}
+
+.innerBottomLeftBox {
+    float: left;
+    background-color: #2bb3b1;
+    width: 425px;
+    padding: 0px 0px 321px 0px;
+    border-bottom-left-radius: 15px;
+}
+
+.texts1 {
+    position: absolute;
+    margin: 34px 0px 0px 67px;
+}
+
+.texts1 h2 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+
+.texts1 b {
+    font-size: 35px;
+    color: white;
+}
+
+.texts1 sup {
+    font-size: 18px;
+    color: white;
+}
+
+.texts1 p {
+    font-size: 22px;
+    color: white;
+}
+
+.space {
+    word-spacing: 9px;
+    margin: 0px 0px -10px 0px;
+}
+
+.lineHeight {
+    line-height: 25px;
+}
+
+.button {
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 229px;
+  transition-duration: 0.4s;
+  box-shadow: -2px 8px 42px grey;
+}
+
+.button:hover {
+    background-color: white;
+    color: #cfeb56;
+}
+
+.innerBottomRightBox {
+    float: right;
+    background-color: #4abebd;
+    width: 425px;
+    padding: 0px 0px 321px 0px;
+    border-bottom-right-radius: 15px;
+}
+
+.lastParagraph {
+    margin: -15px 0px 0px 0px;
+    line-height: 24px;  
+}
