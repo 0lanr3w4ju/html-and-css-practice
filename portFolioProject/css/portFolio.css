@@ -6,13 +6,21 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Special Elite', cursive;
-    background-color: black;
-    background: url(/home/lanre/webDev/portFolioProject/img/blackandwhitestripes4khdabstract-3840x2160.jpg);
+    background-color: transparent;
+    background: url(/img/blackandwhitestripes4khdabstract-3840x2160.jpg);
+    color: #ddd;;
+}
+
+table {
+    border-collapse: collapse;
 }
 
 .topnav {
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    /* width: 100%; */
+    z-index: 2;
 }
 
 .topnav a {
@@ -35,21 +43,75 @@ body {
     color: white;
 }
 
-.myImg img {
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  width: 2%;
-  border: 3px groove white;
-  padding: 3px;
-  display: block;
+#firstBox {
+    position: relative;
+    --box-shadow-color: #ddd;
+    box-shadow: 3px -34px 76px var(--box-shadow-color);
+    width: auto;
+    height: auto;
+    z-index: 1;
 }
 
-.myImg img:hover {
-    background-color: #4caf50
+.whoIAm {
+    position: inherit;
+    left: 206px;
+    top: 27px;
+    width: auto;
+    height: 672px;
 }
 
-h2 {
-    color: white
+.whoIAm p {
+    font-size: 69px;
+    margin: 5px;
+    background-color: black;
+}
+
+.whoIAm h1 {
+    font-size: 83px;
+    margin-right: 66px;
+    background-color: black;
+}
+
+.whoIAm img {
+    width: 399px;
+    border-radius: 122px;
+}
+
+.tools {
+    width: auto;
+    height: auto;
+    background-color: black;
+    z-index: -1;
+}
+
+.card {
+    width: 226px;
+    height: 218px;
+    border-radius: 11px;
+    background-color: #359839;
+    margin: 22px;
+    padding: 15px;
+}
+
+.card h3, p {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.verticalCenter {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+footer {
+    color: #4caf50;
+    text-align: center;
+    position: relative;
+    top: 408px
 }
