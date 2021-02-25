@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+.rectangle {
+    height: 1063px;
+    width: 1897px;
+    /* color:white; */
+    /* border-radius:7px; */
+    /* text-align:center; */
+    vertical-align:middle;
+    justify-content:center;
+    align-items: center;
+  }
+
+.innerDivOne {
+    height: inherit;
+    width: 1097px;
+    background-image: url(/home/lanre/Desktop/BaseApparelComingSoonMaster/images/bg-pattern-desktop.svg);
+}
+
+.innerDiv img {
+    float: right;
+    height: 1063px;
+    width: 800px;
+    background-color: orange;
+}
+
+.innerDivOneBox {
+    position: absolute;
+    height: 806px;
+    width: 530px;
+    /* background-color: red; */
+    padding: 0px;
+    top: 15%;
+    left: 20%;
+    margin: -70px 0 0 -170px;
+}
+
+.innerDivOneBox img {
+    width: 210px;
+}
+
+.innerDivOneBoxOne h1 {
+    position: absolute;
+    float: left;
+    /* width: 11px; */
+    /* height: 11px; */
+    top: 30%;
+    left: 20%;
+    margin: -70px 0 0 -170px;
+    font-size: 77px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 7px;
+    color: hsl(0, 6%, 24%);
+}
+
+.pTag {
+    font-weight: 100;
+    color: hsl(0, 36%, 70%);
+}
+
+.pTagOne p {
+    position: absolute;
+    float: left;
+    font-size: 16px;
+    top: 70%;
+    left: 20.3%;
+    margin: -149px 0 0 -169px;
+    font-size: 20px;
+    line-height: 30px;
+    color: hsl(0, 36%, 70%);
+    font-family: 'Josefin Sans';
+    font-weight: bolder;
+}
+
+.inputBox {
+    position: absolute;
+    float: left;
+    top: 70%;
+    left: 11.3%;
+    width: 504px;
+    height: 62px;
+}
+
+.inputBox input {
+    border-radius: 59px;
+    width: 454px;
+    height: 64px;
+    border-color: hsl(0, 80%, 86%);
+}
+
+.inputBox button {
+    border-radius: 36px;
+    width: 121px;
+    height: 71px;
+    right: -17px;
+    position: absolute;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: hsl(0, 80%, 86%);
+    font-size: 16px;
+}
+
+button:hover {
+    box-shadow: 2px 11px 51px hsl(0deg 74% 74%);
+}

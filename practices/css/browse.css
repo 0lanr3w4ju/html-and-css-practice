@@ -1,0 +1,14 @@
+table {
+    border: solid 1pt black;
+    border-collapse: collapse;
+    border-spacing: 10pt;
+}
+
+td {
+    border: solid 1pt black;
+    padding: 10pt;
+}
+
+form {
+    background: #ffce00;
+}
