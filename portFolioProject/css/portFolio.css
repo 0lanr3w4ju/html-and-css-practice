@@ -7,8 +7,8 @@ body {
     height: 100%;
     font-family: 'Special Elite', cursive;
     background-color: transparent;
-    background: url(../img/blackandwhitestripes4khdabstract-3840x2160.jpg);
-    color: #ddd;;
+    background: url(/img/blackandwhitestripes4khdabstract-3840x2160.jpg);
+    color: #ddd;
 }
 
 table {
