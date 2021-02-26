@@ -12,7 +12,7 @@ body {
     font-family: 'Special Elite', cursive;
     background-color: transparent;
     background: url(../img/blackandwhitestripes4khdabstract-3840x2160.jpg);
-    color: #ddd;
+    color: white;
 }
 
 table {
@@ -30,7 +30,7 @@ table {
 .topnav a {
     float: left;
     overflow: auto;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -38,7 +38,7 @@ table {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: white;
     color: black;
 }
 
@@ -49,7 +49,7 @@ table {
 
 #firstBox {
     position: relative;
-    --box-shadow-color: #ddd;
+    --box-shadow-color: white;
     box-shadow: 3px -34px 76px var(--box-shadow-color);
     width: auto;
     height: auto;
@@ -111,6 +111,28 @@ table {
     justify-content: center;
     align-items: center;
     font-size: 25px;
+}
+
+.icons {
+    /* position: relative;
+    left: 774px; */
+    padding: 10px;
+    margin: auto;
+    width: 19%;
+}
+
+.icons img {
+    background-color: white;
+    width: 37px;
+    border-radius: 19px;
+    margin: 24px;
+    transition: box-shadow 2s ease, background-color 2s ease;
+}
+
+.icons img:hover {
+    box-shadow: 1px 0px 73px 9px whitesmoke;
+    cursor: pointer;
+    background-color: black;
 }
 
 footer {
