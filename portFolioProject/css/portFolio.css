@@ -11,7 +11,7 @@ body {
     height: 100%;
     font-family: 'Special Elite', cursive;
     background-color: transparent;
-    background: url(../img/blackandwhitestripes4khdabstract-3840x2160.jpg);
+    background: url(../img/blackandwhitestripes.jpg);
     color: white;
 }
 
@@ -85,7 +85,6 @@ table {
     width: auto;
     height: auto;
     background-color: black;
-    z-index: -1;
 }
 
 .card {
@@ -135,9 +134,97 @@ table {
     background-color: black;
 }
 
+.container {
+    background: url(../img/technosphere.jpg);
+    height: 439px;
+}
+
 footer {
     color: #4caf50;
+    background: transparent;
     text-align: center;
+    bottom: 408px;
+    margin: -16px;
+    grid-row: auto;
+}
+
+.semicolon {
+    float: left;
+    height: auto;
+    width: 25%;
+}
+
+.semicolon img {
+    width: 206px;
+    padding: 75px;
     position: relative;
-    top: 408px
+    left: 135px;
+    bottom: 12px;
+}
+
+form {
+    float: left;
+    margin: 24px;
+    position:relative;
+    left: 155px;
+    text-align: center;  
+    top: 29px;  
+}
+
+input {
+    width: 587px;
+    height: 47px;
+    font-size: 17px;
+}
+
+form .fname {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+form .email {
+    width: 585px;
+}
+
+form .number {
+    width: 585px;
+}
+
+textarea {
+    width: 587px;
+    height: 130px;
+    border-bottom-right-radius: 15px;
+    font-size: 17px;
+}
+
+button {
+    border-bottom-left-radius: 15px;
+    width: 102px;
+    height: 47px;
+    right: 245px;
+    position: relative;
+    background-color: white;
+}
+
+button:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.thanks {
+    float: right;
+    height: auto;
+    width: 25%;
+}
+
+.thanks img {
+    width: 400px;
+    padding: 0px;
+    position: relative;
+    right: 37px;
+    bottom: 12px;
 }
