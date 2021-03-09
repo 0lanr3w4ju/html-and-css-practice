@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+.container-md {
+    padding: 20px;
+}
+
+.navBar ul li {
+    font-size: 28px;
+}
+
+.navBar ul li button {
+    width: 157px;
+    font-size: 28px;
+}
+
+.navBar ul li a {
+    color: black;
+}
+
+.navBar ul li button {
+  background-color: #ff5678;  
+}
+
+.navBar h1 {
+    position: absolute;
+    color: #ff5678;
+    font-family: 'Work Sans', sans-serif !important;
+    top: 26px;
+}
+
+.nav-link {
+    padding: .5rem 2rem !important;
+}
+
+.card {
+    border: none !important;
+}
+
+.row img {
+    width: 575px;
+    margin-left: 64px
+}
+
+.row .col .card {
+    top: 82px;
+}
+
+.card-body {
+    margin-left: -19px;
+}
+
+.card-body h1 {
+    font-size: 44px;
+}
+
+.card-text {
+    font-size: 38px;
+}
+
+.col button {
+    padding: 12px;
+    width: 265px;
+    font-size: 35px;
+    background-color: #ff5678;
+}
+
+.align-items-center img {    
+    margin-left: 24px;
+    width: 43px;
+}
+
+span{
+    color: #ff5678
+}
+
+.card-body .paragraph p {
+    font-size: 23px;
+}
+
+.row .col .img img {
+    position: relative;
+    top: 188px;
+}
+
+.exp .table {
+    margin-top: 260px;
+}
+
+.exp .table th h4 span {
+    font-size: 42px;
+    color: grey;
+}
+
+.exp .table th h4 {
+    text-align: end;
+}
+
+.middleCol {
+    width: 399px;
+}
+
+.exp .table tbody span {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.exp .table tbody td {
+    border: none;
+}
+
+/* .exp .table .secondRow {
+    
+} */
